@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(to bottom left, black, white);
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+h1 {
+    padding-top: 30px;
+}
+.innerdiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#all {
+    padding: 10vh 40vh 20vh 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#card {
+    width: 330px;
+    padding: 25px 30px 20px 30px;
+    text-align: left;
+    box-shadow: 5px 10px 3px rgb(50, 50, 50);
+}
+#card {
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+hr {
+    background-color: black;
+    border: 20px solid black;
+}
+.mid{
+    margin-bottom: 20px;
+}
+.bot{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chip, .logo {
+    height: 60px;
+    width: auto;
+}
+.op {
+    opacity: 60%;
+}
+.cardNr{
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+}
+.valid {
+    font-size: 10px;
+}
+.name{
+    font-size: larger;
+}
+.backside{
+    margin: 40px 20px 0 20px;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+} 
+.backname{
+    padding: 7px;
+}
+.scode{
+    background-color: lightgray;
+    padding: 7px;
+    border-radius: 5px;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+}
+
+
+
+form {
+    text-align: left;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    height: 30px;
+    min-width: 180px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+label, button {
+    margin-bottom: 5px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-size:small;
+    padding: 3px;
+    border-radius: 5px;
+}
+

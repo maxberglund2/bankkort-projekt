@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baksida</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Payment Information</h1>
+    <div id="all">
+        <div style="padding-left: 0; padding-right: 0; width: 390px;" id="card">
+            <hr>
+            <div class="backside">
+                <p class="backname">BYTE WEBSTER</p>
+                <p class="scode">245</p>
+            </div>
+            <div style="float: right; padding-right: 20px; margin-bottom: 40px;" class="op">security code</div>
+            <div>
+                <hr style="margin-top: 70px; border: 2px solid white; width: 60%; margin-bottom: 5px;">
+                <hr style="border: 2px solid white; width: 70%;">
+            </div>
+        </div>
+        <form action="#">
+            <label for="cname">Name</label>
+            <input type="text" id="cname" placeholder="Enter cardholder name">
+            <div><label for="cnum">Card Number</label><button>Generate random Card</button></div>
+            <input type="text" id="cnum" placeholder="xxxx - xxxx - xxxx - xxxx">
+            <div >
+                <div class="innerdiv">
+                    <label for="ex">Expiration (mm/yy) </label>
+                    <input type="text" id="ex" placeholder="mm/yy">
+                </div>
+                <div class="innerdiv">
+                    <label for="scode">Security Code</label>
+                    <input type="password" id="scode" placeholder="xxx">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

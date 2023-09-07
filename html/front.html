@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framsida</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Payment Information</h1>
+    <div id="all">
+        <div id="card">
+            <div class="top">
+                <img src="https://cdn-icons-png.flaticon.com/512/6404/6404100.png" alt="chip" class="chip">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/800px-Mastercard_2019_logo.svg.png" alt="logo" class="logo">
+            </div>
+            <div class="mid">
+                <p class="op" style="margin-bottom: 7px;">card number</p>
+                <b class="cardNr" ><span>6011</span><span>0009</span><span>9013</span><span>9424</span></b>
+            </div>
+            <p class="op title">cardholder name <span style="float: right;">expiration</span></p>
+            <div class="bot">
+                <p class="name">BYTE WEBSTER</p>
+                <div style="display: flex; align-items: center;">
+                    <div class="op valid">
+                        <p>VALID</p>
+                        <p>THRU</p>
+                    </div>
+                    <p style="margin: 0 10px 0 10px; font-size: 10px;">►</p>
+                    <p class="name">12/24</p>
+                </div>
+            </div>
+        </div>
+        <form action="#">
+            <label for="cname">Name</label>
+            <input type="text" id="cname" placeholder="Enter cardholder name">
+            <div><label for="cnum">Card Number</label><button>Generate random Card</button></div>
+            <input type="text" id="cnum" placeholder="xxxx - xxxx - xxxx - xxxx">
+            <div >
+                <div class="innerdiv">
+                    <label for="ex">Expiration (mm/yy) </label>
+                    <input type="text" id="ex" placeholder="mm/yy">
+                </div>
+                <div class="innerdiv">
+                    <label for="scode">Security Code</label>
+                    <input type="password" id="scode" placeholder="xxx">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
